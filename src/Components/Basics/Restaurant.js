@@ -1,18 +1,14 @@
+import { useState } from "react";
 import "./style.css";
-
+import Image from "../../assets/images/maggi.jpg";
+import Menu from "./menuAPI";
+import MenuCard from "./MenuCard";
 const Restaurant = () => {
+  const [menuData, setMenuData] = useState(Menu);
+  console.log(menuData);
   return (
     <div>
-      <div className="card-container">
-        <div className="card">
-          <div className="card-body">
-            <span className="card-number card-circle subtle">1</span>
-            <span className="card-author" subtle>
-              Breakfast
-            </span>
-          </div>
-        </div>
-      </div>
+      <MenuCard  menuData = {menuData} />
     </div>
   );
 };
