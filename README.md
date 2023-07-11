@@ -1,4 +1,4 @@
 
 # Food-For-Foodies
 
-## checkout master branch for code source
+# Checkout master branch for code source
