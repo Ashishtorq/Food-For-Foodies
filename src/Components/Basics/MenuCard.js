@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 const MenuCard = ({ menuData }) => {
-//   console.log(menuData);
+  //   console.log(menuData);
   return (
     <div className="semantic-purpose">
       <section className="main-card--cointainer">
@@ -10,24 +10,23 @@ const MenuCard = ({ menuData }) => {
             <div className="card-container" key={curElem.id}>
               <div className="card">
                 <div className="card-body">
-                  <span className="card-number card-circle subtle">{curElem.id}</span>
-                  <span className="card-author" subtle>
-                    Breakfast
+                  <span className="card-number card-circle subtle">
+                    {curElem.id}
                   </span>
-                  <h2 className="card-tittle">Maggi</h2>
+                  <span className="card-author" subtle>
+                    {curElem.name}
+                  </span>
+                  <h2 className="card-tittle">{curElem.name}</h2>
                   <span className="card-description subtle">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Necessitatibus eveniet maiores blanditiis quam. Praesentium,
-                    corrupti vero labore et provident aliquam consequatur atque,
-                    voluptates alias natus error, eaque quia aliquid dolorum!
-                    Quibusdam harum alias asperiores labore quia sunt aut
-                    ratione sapiente ipsa quos? Aperiam culpa velit quae eaque
-                    enim nostrum eveniet!
+                    {curElem.description}
                   </span>
                   <div className="card-read">Read</div>
                   <div>
-                     
-
+                    <img
+                      src={curElem.image}
+                      alt="images"
+                      className="card-media"
+                    />
                     <span className="card-tag subtle">Order Now</span>
                   </div>
                 </div>

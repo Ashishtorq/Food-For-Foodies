@@ -2,7 +2,7 @@ const Menu = [
   {
     id: 1,
     image: "images/maggi.jpg",
-    name: "maggi",
+    name: "Maggi",
     category: "breakfast",
     price: "12₹",
     description:
@@ -12,8 +12,8 @@ const Menu = [
   {
     id: 2,
     image: "images/allupakoida.jpg",
-    name: "allu pakoida",
-    category: "evening",
+    name: "Allu Pakoida",
+    category: "Evening",
     price: "20₹",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
@@ -21,8 +21,8 @@ const Menu = [
   {
     id: 3,
     image: "images/corn.jpg",
-    name: "corn",
-    category: "breakfast",
+    name: "Corn",
+    category: "Breakfast",
     price: "10₹",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
@@ -30,7 +30,7 @@ const Menu = [
   {
     id: 4,
     image: "../images/chola.jpg",
-    name: "chola",
+    name: "Chhola",
     category: "lunch",
     price: "50₹",
     description:
@@ -39,8 +39,8 @@ const Menu = [
   {
     id: 5,
     image: "../images/pizza.jpg",
-    name: "pizza",
-    category: "evening",
+    name: "Pizza",
+    category: "Evening",
     price: "80₹",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
@@ -49,7 +49,7 @@ const Menu = [
     id: 6,
     image: "../images/nonvegthali.jpg",
     name: "Non-Veg Thali",
-    category: "dinner",
+    category: "Dinner",
     price: "180₹",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
@@ -58,7 +58,7 @@ const Menu = [
     id: 7,
     image: "../images/sweet.jpg",
     name: "Sweets",
-    category: "dinner",
+    category: "Dinner",
     price: "60₹",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
@@ -67,7 +67,7 @@ const Menu = [
     id: 8,
     image: "../images/rajmarice.jpg",
     name: "Rajma Rice",
-    category: "lunch",
+    category: "Lunch",
     price: "60₹",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
@@ -75,8 +75,8 @@ const Menu = [
   {
     id: 9,
     image: "../images/samosa.jpg",
-    name: "samaso",
-    category: "evening",
+    name: "Samaso",
+    category: "Evening",
     price: "10₹",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
