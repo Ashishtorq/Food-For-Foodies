@@ -3,7 +3,7 @@ const Menu = [
     id: 1,
     image: "images/maggi.jpg",
     name: "Maggi",
-    category: "breakfast",
+    category: "Breakfast",
     price: "12₹",
     description:
       "I love Maggi realy oo yues  Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
@@ -31,7 +31,7 @@ const Menu = [
     id: 4,
     image: "../images/chola.jpg",
     name: "Chhola",
-    category: "lunch",
+    category: "Lunch",
     price: "50₹",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
