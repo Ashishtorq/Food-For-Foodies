@@ -5,10 +5,10 @@ import Menu from "./menuAPI";
 import MenuCard from "./MenuCard";
 const Restaurant = () => {
   const [menuData, setMenuData] = useState(Menu);
-  console.log(menuData);
+  // console.log(menuData);
   return (
     <div>
-      <MenuCard  menuData = {menuData} />
+      <MenuCard menuData={menuData} />
     </div>
   );
 };

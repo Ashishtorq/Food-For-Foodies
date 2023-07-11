@@ -1,16 +1,16 @@
 import React from "react";
 import "./style.css";
 const MenuCard = ({ menuData }) => {
-  // console.log(menuData)
+//   console.log(menuData);
   return (
     <div className="semantic-purpose">
       <section className="main-card--cointainer">
         {menuData.map((curElem) => {
           return (
-            <div className="card-container">
+            <div className="card-container" key={curElem.id}>
               <div className="card">
                 <div className="card-body">
-                  <span className="card-number card-circle subtle">1</span>
+                  <span className="card-number card-circle subtle">{curElem.id}</span>
                   <span className="card-author" subtle>
                     Breakfast
                   </span>
@@ -26,7 +26,8 @@ const MenuCard = ({ menuData }) => {
                   </span>
                   <div className="card-read">Read</div>
                   <div>
-                    <img src={Image} alt="images" className="card-media" />
+                     
+
                     <span className="card-tag subtle">Order Now</span>
                   </div>
                 </div>
